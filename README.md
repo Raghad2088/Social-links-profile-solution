@@ -32,10 +32,10 @@ I completed the "Social links profile" challenge. It was a nice, straightforward
 
 ### Built with
 
-- Semantic HTML5 markup
-- CSS custom properties
-- Flexbox
-- Mobile-first workflow
+- Semantic HTML5 markup.
+- CSS custom properties.
+- Flexbox.
+- Mobile-first workflow.
 
 ### What I learned
 
