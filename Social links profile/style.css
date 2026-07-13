@@ -19,9 +19,9 @@
   --space-xl: 2.1875rem;           
   --space-card-y: 2.5rem;          
 
-  --fs-sm: 0.875rem;              
-  --fs-md: 1rem;                  
-  --fs-lg: 1.5625rem;             
+  --fs-sm: clamp(0.75rem, 0.70rem + 0.25vw, 0.875rem);              
+  --fs-md: clamp(0.875rem, 0.82rem + 0.25vw, 1rem);                  
+  --fs-lg: clamp(1.25rem, 1.10rem + 0.75vw, 1.5625rem);             
   
   --avatar-size: 4.375rem;
 }
