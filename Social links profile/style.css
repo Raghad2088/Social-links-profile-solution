@@ -1,3 +1,11 @@
+:root {
+  --bg-main: hsl(0, 0%, 8%);     
+  --bg-card: hsl(0, 0%, 12%);   
+  --bg-button: hsl(0, 0%, 20%);   
+  --accent: hsl(75, 94%, 57%);   
+  --text-white: #ffffff;
+  --text-muted: hsl(0, 0%, 60%);   
+}
 * {
   box-sizing: border-box;
   padding: 0;
@@ -5,7 +13,7 @@
 }
 
 body {
-  background-color: hsl(0, 0%, 8%);
+  background-color: var(--bg-main);
   font-family: "Inter", sans-serif;
 }
 
@@ -19,7 +27,7 @@ body {
 article.social-card {
   width: 100%;
   max-width: 365px;
-  background-color: hsl(0, 0%, 12%);
+  background-color: var(--bg-card);
   padding: 40px 30px;
   border-radius: 20px;
 }
@@ -40,21 +48,21 @@ header.profile-header img {
 }
 
 header.profile-header h1 {
-  color: #fff;
+  color: var(--text-white);
   font-weight: 700;
   font-size: 1.5625rem;
 }
 header.profile-header p.location {
-  color: hsl(75, 94%, 57%);
+  color: var(--accent);
   font-weight: 600;
  font-size: 0.875rem;
   margin-bottom: 20px;
 }
 p.bio {
-  color: hsl(0, 0%, 60%);
+  color: var(--text-muted);
   font-weight: 400;
   text-align: center;
-  font-size: 0.8125rem;
+  font-size: 0.13rem;
   margin-bottom: 35px;
 }
 
@@ -68,7 +76,7 @@ p.bio {
   width: 100%;
 }
 .links-list li {
-  background-color: hsl(0, 0%, 20%);
+  background-color: var(--bg-button);
   width: 100%;
   border-radius: 10px;
   transition: background-color 0.3s ease;
@@ -76,7 +84,7 @@ p.bio {
 
 .links-list li a {
   text-decoration: none;
-  color: #fff;
+  color: var(--text-white);
  font-size: 0.875rem;
   font-weight: 700;
   display: block;
@@ -85,13 +93,13 @@ p.bio {
 }
 .links-list li:hover,
 .links-list li:focus-within {
-  background-color: hsl(75, 94%, 57%);
+  background-color: var(--accent);
 }
 .links-list li:hover a {
   color: hsl(0, 0%, 8%);
 }
 .links-list li a:focus-visible {
-  outline: 2px solid #fff; 
+  outline: 2px solid var(--text-white); 
   outline-offset: 4px;
-  color: hsl(0, 0%, 8%);
+  color: var(--bg-main);
 }
