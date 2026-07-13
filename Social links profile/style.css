@@ -67,8 +67,7 @@ header.profile-header {
   object-fit: cover;
   margin-bottom: var(--space-xs);
 }
-
-header.profile-header h1 {
+.name {
   color: var(--text-white);
   font-weight: 700;
   font-size: var(--fs-lg);
