@@ -67,68 +67,7 @@ header.profile-header {
   object-fit: cover;
   margin-bottom: var(--space-xs);
 }
-.name {
-  color: var(--text-white);
-  font-weight: 700;
-  font-size: var(--fs-lg);
-}
 
-header.profile-header p.location {
-  color: var(--accent);
-  font-weight: 600;
-  font-size: var(--fs-sm);
-  margin-bottom: var(--space-md);
-}
-
-p.bio {
-  color: var(--text-muted);
-  font-weight: 400;
-  text-align: center;
-  font-size: var(--fs-md);
-  margin-bottom: var(--space-xl);
-}
-
-.links-list {
-  list-style: none;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  gap: var(--space-sm);
-  width: 100%;
-}
-
-.links-list li {
-  background-color: var(--bg-button);
-  width: 100%;
-  border-radius: var(--radius-button);
-  transition: background-color 0.3s ease;
-}
-
-.links-list li a {
-  text-decoration: none;
-  color: var(--text-white);
-  font-size: var(--fs-sm);
-  font-weight: 700;
-  display: block;
-  padding: var(--space-sm) var(--space-lg);
-  text-align: center;
-}
-
-.links-list li:hover,
-.links-list li:focus-within {
-  background-color: var(--accent);
-}
-
-.links-list li:hover a {
-  color: var(--bg-main);
-}
-
-.links-list li a:focus-visible {
-  outline: 2px solid var(--text-white); 
-  outline-offset: 4px;
-  color: var(--bg-main);
-}
 header.profile-header h1 {
   color: var(--text-white);
   font-weight: 700;
@@ -164,7 +103,7 @@ p.bio {
   background-color: var(--bg-button);
   width: 100%;
   border-radius: var(--radius-button);
-  transition: background-color 0.3s ease;
+  transition: transform 0.2s ease, background-color 0.3s ease, box-shadow 0.2s ease;
 }
 
 .links-list li a {
@@ -180,14 +119,15 @@ p.bio {
 .links-list li:hover,
 .links-list li:focus-within {
   background-color: var(--accent);
+  transform: scale(1.02);
 }
 
-.links-list li:hover a {
+.links-list li:hover a,
+.links-list li a:focus-visible {
   color: var(--bg-main);
 }
 
 .links-list li a:focus-visible {
   outline: 2px solid var(--text-white); 
   outline-offset: 4px;
-  color: var(--bg-main);
 }
