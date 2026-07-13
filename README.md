@@ -26,7 +26,7 @@ I completed the "Social links profile" challenge. It was a nice, straightforward
 ### Links
 
 - Solution URL: https://github.com/Raghad2088/Social-links-profile-solution
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: https://raghad2088.github.io/Social-links-profile-solution/
 
 ## My process
 
