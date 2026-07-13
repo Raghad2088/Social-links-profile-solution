@@ -88,7 +88,7 @@ p.bio {
  font-size: 0.875rem;
   font-weight: 700;
   display: block;
-  padding: 15px 30px;
+  padding: 0.9375rem 1.875rem;
   text-align: center;
 }
 .links-list li:hover,
