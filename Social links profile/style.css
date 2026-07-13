@@ -88,11 +88,11 @@ p.bio {
 .links-list li:focus-within {
   background-color: hsl(75, 94%, 57%);
 }
-.links-list li:hover a,
-.links-list li a:focus-visible {
+.links-list li:hover a, {
   color: hsl(0, 0%, 8%);
 }
 .links-list li a:focus-visible {
   outline: 2px solid #fff; 
   outline-offset: 4px;
+  color: hsl(0, 0%, 8%);
 }
