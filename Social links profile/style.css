@@ -28,7 +28,7 @@ article.social-card {
   width: 100%;
   max-width: 365px;
   background-color: var(--bg-card);
-  padding: 40px 30px;
+  padding: 640rem 480rem;
   border-radius: 20px;
 }
 
@@ -88,7 +88,7 @@ p.bio {
  font-size: 0.875rem;
   font-weight: 700;
   display: block;
-  padding: 15px 30px;
+  padding: 240rem 480rem;
   text-align: center;
 }
 .links-list li:hover,
