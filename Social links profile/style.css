@@ -26,10 +26,14 @@
   --avatar-size: 4.375rem;
 }
 
-* {
+html {
   box-sizing: border-box;
-  padding: 0;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
   margin: 0;
+  padding: 0;
 }
 
 body {
@@ -61,6 +65,7 @@ header.profile-header {
 }
 
 .avatar {
+  display: block;
   width: var(--avatar-size);
   height: var(--avatar-size);
   border-radius: var(--radius-avatar);
