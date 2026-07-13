@@ -62,7 +62,7 @@ p.bio {
   color: var(--text-muted);
   font-weight: 400;
   text-align: center;
-  font-size: 0.13rem;
+  font-size: 1rem;
   margin-bottom: 35px;
 }
 
@@ -96,7 +96,7 @@ p.bio {
   background-color: var(--accent);
 }
 .links-list li:hover a {
-  color: hsl(0, 0%, 8%);
+  color: var(--bg-main);
 }
 .links-list li a:focus-visible {
   outline: 2px solid var(--text-white); 
